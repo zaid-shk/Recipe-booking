@@ -16,3 +16,8 @@ h2 {
     padding: 50px auto;
     /* font-size: xx-large; */
 }
+.btn:hover{
+    transition: all .5s;
+    color: brown;
+    
+}

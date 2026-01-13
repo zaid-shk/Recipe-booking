@@ -1,12 +1,12 @@
 import React from "react";
 
 const ApiCall = () => {
-  const ApiCall = fetch(
-    "https://api.spoonacular.com/recipes/complexSearch?query=pasta&maxFat=25&number=2"
+  const Api = fetch(
+    "www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata"
   );
 
   const Call = () => {
-    console.log(ApiCall);
+    console.log(Api);
   };
 
   return (
